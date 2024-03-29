@@ -1,22 +1,28 @@
-.container{
-    border: 5px dotted red;
-    width: 550px;
-    height: 350px;
-    background-color: cyan;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.box{
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 40px;
-    height: 40px;
+div.boxone{
+    border: 5px dotted red;
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+div.boxino{
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
     background-color: yellow;
 }
 
-.box-two{
-    margin-top: 15px;
-    margin-left: 30px;
-    width: 40px;
-    height: 40px;
+div.secondo-boxino{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
     background-color: yellow;
 }
